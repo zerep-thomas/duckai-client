@@ -5,6 +5,9 @@ Demonstrates how to use the streaming feature of the duckai.py module.
 
 import asyncio
 import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from duckai import DuckAIClient, Model
 
 # ANSI escape codes for colored terminal output
